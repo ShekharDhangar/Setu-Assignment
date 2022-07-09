@@ -1,8 +1,9 @@
 :root {
+  --primary-clr: #05386b;
+  --secondary-clr: #04478a;
   --danger-clr: #c31010;
   --success-clr: #188f1d;
   --info-clr: #1a5eb1;
-  --primary-clr: #05386b;
   --box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
 }
 
