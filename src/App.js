@@ -1,9 +1,10 @@
 import './App.css';
+import Input from './components/Input/Input';
 
 function App() {
   return (
     <div className="App">
-      <h1>SETU Assignment</h1>
+      <Input label="ok" placeholder="email" type="email" />
     </div>
   );
 }
