@@ -8,7 +8,7 @@
   text-align: center;
   text-overflow: ellipsis;
   color: white;
-  background-color: var(--clr-btnBlue);
+  background-color: var(--clr-blue);
   box-shadow: var(--box-shadow);
   font-size: 1.5rem;
   line-height: 3.5rem;

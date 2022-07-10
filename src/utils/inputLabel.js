@@ -1,0 +1,16 @@
+export const inputLabels = {
+  firstName: 'First Name',
+  lastName: 'Last Name',
+  dateOfBirth: 'Date of Birth',
+  gender: 'Gender',
+  previousSchoolName: 'Previous School Name',
+  previousClass: 'Previous Class',
+  grade: 'Grade',
+  entryClass: 'Entry Class',
+  address1: 'Address Line 1',
+  address2: 'Address Line 2',
+  city: 'City',
+  state: 'State',
+  zipCode: 'ZipCode',
+  contactNumber: 'Contact Number',
+};

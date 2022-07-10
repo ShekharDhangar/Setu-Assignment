@@ -1,0 +1,19 @@
+.gridTable {
+  display: grid;
+  text-align: left;
+  padding: 1rem;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+  border-bottom: 1px solid var(--clr-black);
+}
+.tableBody > *:last-child {
+  border-bottom: none;
+}
+
+.formTable {
+  border: 1px solid var(--clr-black);
+}
+.tableContainer {
+  display: grid;
+  place-items: center;
+}
