@@ -20,7 +20,7 @@
 .input:focus {
   outline: none;
   box-shadow: var(--box-shadow);
-  border: 2.5px solid var(--clr-blue);
+  border: 2px solid var(--clr-blue);
 }
 
 .inputLabel {
