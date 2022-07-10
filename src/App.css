@@ -1,15 +1,16 @@
 :root {
-  --primary-clr: #05386b;
-  --secondary-clr: #04478a;
-  --danger-clr: #c31010;
-  --success-clr: #188f1d;
-  --info-clr: #1a5eb1;
+  --danger-clr: rgb(215, 48, 39);
   --box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+  --clr-white: #ffffff;
+  --clr-black:#01070d;
+  --clr-darkBlue: #003366;
+  --clr-btnBlue:#2196f3;
 }
 
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
   font-family: sans-serif;
@@ -22,6 +23,12 @@ body {
   border: none;
   box-sizing: border-box;
 }
+
 li {
   list-style-type: none;
+}
+
+label {
+  font-size: 1.75rem;
+  color: var(--clr-darkBlue);
 }
