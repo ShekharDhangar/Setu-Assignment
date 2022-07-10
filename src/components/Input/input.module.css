@@ -1,15 +1,17 @@
 .inputContainer {
   padding: 5px;
-  margin: 5px 0;
+  margin: 1rem 0;
   font-size: 2rem;
+  position: relative;
 }
 
 .input {
   border-radius: 7.5px;
   border: none;
   padding: 1rem;
-  border: 2px solid black;
+  border: 2px solid var(--clr-black);
   display: block;
+  font-size: 1.75rem;
   margin: 5px 0;
   width: 100%;
   transition: all 0.3s;
@@ -21,6 +23,11 @@
   border: 2.5px solid var(--info-clr);
 }
 
-.errorControl {
+.inputLabel {
+  padding-left: 5px;
+}
+.errorMessage {
+  position: absolute;
   color: var(--danger-clr);
+  font-size: 1.65rem;
 }
