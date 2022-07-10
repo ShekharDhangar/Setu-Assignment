@@ -1,5 +1,4 @@
 .inputContainer {
-  max-width: max-content;
   padding: 5px;
   margin: 5px 0;
   font-size: 2rem;
@@ -11,7 +10,6 @@
   padding: 1rem;
   border: 2px solid black;
   display: block;
-  max-width: 25rem;
   margin: 5px 0;
   width: 100%;
   transition: all 0.3s;
@@ -26,4 +24,3 @@
 .errorControl {
   color: var(--danger-clr);
 }
-
