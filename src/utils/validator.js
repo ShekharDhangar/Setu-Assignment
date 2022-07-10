@@ -10,7 +10,7 @@ export const validator = {
     if (result) return false;
     return true;
   },
-  number: (value, minLength = 1) => {
+  number: (value, minLength = 0) => {
     const length = value ? value.toString().length : 0;
     if (length > 0) {
       const result = regex.number.test(value);
